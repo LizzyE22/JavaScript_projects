@@ -1,0 +1,23 @@
+.platform {
+	width: 16px;
+	height: 16px;
+	background:url(platforms.png) no-repeat
+}
+
+.platform.Windows {background-position: 0 0}
+.platform.Apple {background-position: -16px 0}
+.platform.Linux {background-position: -32px 0}
+.platform.iOS {background-position: -48px 0}
+.platform.Android {background-position: -64px 0}
+.platform.Blackberry {background-position: -80px 0}
+.platform.Phone {background-position: -96px 0}
+.platform.Others {background-position: -112px 0}
+
+.chat_panel .platform.Windows {background-position: 0 -16px}
+.chat_panel .platform.Apple {background-position: -16px -16px}
+.chat_panel .platform.Linux {background-position: -32px -16px}
+.chat_panel .platform.iOS {background-position: -48px -16px}
+.chat_panel .platform.Android {background-position: -64px -16px}
+.chat_panel .platform.Blackberry {background-position: -80px -16px}
+.chat_panel .platform.Phone {background-position: -96px -16px}
+.chat_panel .platform.Others {background-position: -112px -16px}

@@ -1,0 +1,19 @@
+.browser {
+	width: 16px;
+	height: 16px;
+	background:url(browsers.png) no-repeat
+}
+
+.browser.Chrome {background-position: 0 0}
+.browser.Firefox {background-position: -16px 0}
+.browser.Opera {background-position: -32px 0}
+.browser.Safari {background-position: -48px 0}
+.browser.IE {background-position: -64px 0}
+.browser.Others {background-position: -80px 0}
+
+.chat_panel .browser.Chrome {background-position: 0 -16px}
+.chat_panel .browser.Firefox {background-position: -16px -16px}
+.chat_panel .browser.Opera {background-position: -32px -16px}
+.chat_panel .browser.Safari {background-position: -48px -16px}
+.chat_panel .browser.IE {background-position: -64px -16px}
+.chat_panel .browser.Others {background-position: -80px -16px}

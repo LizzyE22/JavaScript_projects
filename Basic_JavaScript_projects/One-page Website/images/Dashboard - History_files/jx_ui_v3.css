@@ -1,0 +1,55 @@
+.btn_round_expand,.checkbox_active,.checkbox_active_checked,.checkbox_checked,.checkbox_default,.checkbox_disabled,.checkbox_disabled_checked,.dropdown_expand_dark {
+	background: url(jx_ui_v3.png) top left no-repeat;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+	.btn_round_expand,.checkbox_active,.checkbox_active_checked,.checkbox_checked,.checkbox_default,.checkbox_disabled,.checkbox_disabled_checked,.dropdown_expand_dark {
+		background: url(jx_ui_v3@2x.png) top left no-repeat;
+		background-size: 48px 38px;
+	}
+}
+
+.btn_round_expand {
+	background-position: -0px -32px;
+	width: 8px;
+	height: 6px;
+}
+.checkbox_active {
+	background-position: -0px -0px;
+	width: 16px;
+	height: 16px;
+}
+.checkbox_active_checked {
+	background-position: -17px -0px;
+	width: 16px;
+	height: 16px;
+}
+.checkbox_checked {
+	background-position: -0px -17px;
+	width: 14px;
+	height: 14px;
+}
+.checkbox_default {
+	background-position: -15px -17px;
+	width: 14px;
+	height: 14px;
+}
+.checkbox_disabled {
+	background-position: -34px -0px;
+	width: 14px;
+	height: 14px;
+}
+.checkbox_disabled_checked {
+	background-position: -34px -15px;
+	width: 14px;
+	height: 14px;
+}
+.dropdown_expand_dark {
+	background-position: -9px -32px;
+	width: 8px;
+	height: 6px;
+}

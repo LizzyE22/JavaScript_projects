@@ -1,0 +1,865 @@
+.agent_admin,.agent_light,.agent_orange,.analytics_acceptance,.analytics_agentschatting,.analytics_capacity,.analytics_completed,.analytics_dropped,.analytics_missed,.analytics_satisfaction,.analytics_served,.analytics_timing,.analytics_view,.big_disconnection,.big_tick_orange,.browserbroken,.btn_action_download,.btn_action_more_options,.btn_action_save,.btn_delete,.btn_dismiss_dark,.btn_dismiss_light,.btn_dismiss_orange,.btn_round_back,.btn_round_chat,.btn_round_contract,.btn_round_contractall,.btn_round_dismiss_dark,.btn_round_expand,.btn_round_expandall,.btn_round_forward,.btn_round_maximize,.btn_round_minimize,.btn_round_minimize_dark,.btn_white_more,.btn_white_more_active,.btn_windowctrl_chat_hover,.btn_windowctrl_chat_hover_old,.btn_windowctrl_minimize_hover_old,.btn_windowctrl_minimize_old,.camera_dark,.camera_white,.chatpanel_attach,.chatpanel_attach_hover,.chatpanel_clipboard_close,.chatpanel_rating,.chatpanel_rating_hover,.chatpanel_seen,.chatpanel_textarea_paperclip,.chatpanel_visitorpath_path,.chatpanel_visitorpath_referrer,.chatpanel_webpath,.chatrating_bad,.chatrating_good,.checkbox_active,.checkbox_active_checked,.checkbox_checked,.checkbox_checkmark,.checkbox_default,.checkbox_disabled,.checkbox_disabled_checked,.drop_files_here,.dropdown_contract_dark,.dropdown_expand_dark,.edit_dark,.edit_orange,.goal,.goal_outline,.google_2019,.helpfeedback_bug,.helpfeedback_bug_old,.helpfeedback_chat,.helpfeedback_chat_old,.helpfeedback_feedbacksurvey,.helpfeedback_newfeaturesurvey,.helpfeedback_surveycomplete,.home_websiteactivity_assigned,.home_websiteactivity_chatting,.home_websiteactivity_incoming,.home_websiteactivity_left,.home_websiteupdates_bullet,.home_welcome_home,.home_welcome_triggers,.home_welcome_visitorlist,.home_welcome_visualization,.logo_light,.logo_orange,.logo_white,.mainnav_active_account,.mainnav_active_agents,.mainnav_active_analytics,.mainnav_active_bannedvisitors,.mainnav_active_departments,.mainnav_active_history,.mainnav_active_home,.mainnav_active_labs,.mainnav_active_personal,.mainnav_active_realtime,.mainnav_active_shortcuts,.mainnav_active_triggers,.mainnav_active_visitorlist,.mainnav_active_visualization,.mainnav_active_widget,.mainnav_default_account,.mainnav_default_agentlist,.mainnav_default_agents,.mainnav_default_analytics,.mainnav_default_bannedvisitors,.mainnav_default_departments,.mainnav_default_history,.mainnav_default_home,.mainnav_default_labs,.mainnav_default_personal,.mainnav_default_realtime,.mainnav_default_shortcuts,.mainnav_default_triggers,.mainnav_default_visitorlist,.mainnav_default_visualization,.mainnav_default_widget,.mainnav_pagetitle_account,.mainnav_pagetitle_add,.mainnav_pagetitle_agents,.mainnav_pagetitle_analytics,.mainnav_pagetitle_bannedvisitors,.mainnav_pagetitle_departments,.mainnav_pagetitle_generic,.mainnav_pagetitle_history,.mainnav_pagetitle_home,.mainnav_pagetitle_labs,.mainnav_pagetitle_personal,.mainnav_pagetitle_realtime,.mainnav_pagetitle_shortcuts,.mainnav_pagetitle_triggers,.mainnav_pagetitle_visitorlist,.mainnav_pagetitle_visualization,.mainnav_pagetitle_widget,.medium_chat_light,.medium_email_light,.medium_lightbulb_orange,.notice_warning,.onboarding_tooltiparrow_bottom,.onboarding_tooltiparrow_left,.onboarding_tooltiparrow_right,.onboarding_tooltiparrow_top,.profile_large_,.routing_pull,.routing_push,.tooltip_help,.translate_large_2018,.translate_small,.video_play,.visitor_legend_active,.visitor_legend_assigned,.visitor_legend_clicked,.visitor_legend_idle,.visitor_legend_incoming,.visitor_legend_served,.visitor_legend_triggered,.volume_loud,.volume_soft,.white_forward,.widget_badge_image,.widget_badge_image_left,.widget_badge_image_right,.widget_badge_text,.widget_new,.widget_theme_classic,.widget_theme_embeddable,.widget_theme_simple,.widget_upload {
+	background: url(white_v25.png) top left no-repeat;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+	.agent_admin,.agent_light,.agent_orange,.analytics_acceptance,.analytics_agentschatting,.analytics_capacity,.analytics_completed,.analytics_dropped,.analytics_missed,.analytics_satisfaction,.analytics_served,.analytics_timing,.analytics_view,.big_disconnection,.big_tick_orange,.browserbroken,.btn_action_download,.btn_action_more_options,.btn_action_save,.btn_delete,.btn_dismiss_dark,.btn_dismiss_light,.btn_dismiss_orange,.btn_round_back,.btn_round_chat,.btn_round_contract,.btn_round_contractall,.btn_round_dismiss_dark,.btn_round_expand,.btn_round_expandall,.btn_round_forward,.btn_round_maximize,.btn_round_minimize,.btn_round_minimize_dark,.btn_white_more,.btn_white_more_active,.btn_windowctrl_chat_hover,.btn_windowctrl_chat_hover_old,.btn_windowctrl_minimize_hover_old,.btn_windowctrl_minimize_old,.camera_dark,.camera_white,.chatpanel_attach,.chatpanel_attach_hover,.chatpanel_clipboard_close,.chatpanel_rating,.chatpanel_rating_hover,.chatpanel_seen,.chatpanel_textarea_paperclip,.chatpanel_visitorpath_path,.chatpanel_visitorpath_referrer,.chatpanel_webpath,.chatrating_bad,.chatrating_good,.checkbox_active,.checkbox_active_checked,.checkbox_checked,.checkbox_checkmark,.checkbox_default,.checkbox_disabled,.checkbox_disabled_checked,.drop_files_here,.dropdown_contract_dark,.dropdown_expand_dark,.edit_dark,.edit_orange,.goal,.goal_outline,.google_2019,.helpfeedback_bug,.helpfeedback_bug_old,.helpfeedback_chat,.helpfeedback_chat_old,.helpfeedback_feedbacksurvey,.helpfeedback_newfeaturesurvey,.helpfeedback_surveycomplete,.home_websiteactivity_assigned,.home_websiteactivity_chatting,.home_websiteactivity_incoming,.home_websiteactivity_left,.home_websiteupdates_bullet,.home_welcome_home,.home_welcome_triggers,.home_welcome_visitorlist,.home_welcome_visualization,.logo_light,.logo_orange,.logo_white,.mainnav_active_account,.mainnav_active_agents,.mainnav_active_analytics,.mainnav_active_bannedvisitors,.mainnav_active_departments,.mainnav_active_history,.mainnav_active_home,.mainnav_active_labs,.mainnav_active_personal,.mainnav_active_realtime,.mainnav_active_shortcuts,.mainnav_active_triggers,.mainnav_active_visitorlist,.mainnav_active_visualization,.mainnav_active_widget,.mainnav_default_account,.mainnav_default_agentlist,.mainnav_default_agents,.mainnav_default_analytics,.mainnav_default_bannedvisitors,.mainnav_default_departments,.mainnav_default_history,.mainnav_default_home,.mainnav_default_labs,.mainnav_default_personal,.mainnav_default_realtime,.mainnav_default_shortcuts,.mainnav_default_triggers,.mainnav_default_visitorlist,.mainnav_default_visualization,.mainnav_default_widget,.mainnav_pagetitle_account,.mainnav_pagetitle_add,.mainnav_pagetitle_agents,.mainnav_pagetitle_analytics,.mainnav_pagetitle_bannedvisitors,.mainnav_pagetitle_departments,.mainnav_pagetitle_generic,.mainnav_pagetitle_history,.mainnav_pagetitle_home,.mainnav_pagetitle_labs,.mainnav_pagetitle_personal,.mainnav_pagetitle_realtime,.mainnav_pagetitle_shortcuts,.mainnav_pagetitle_triggers,.mainnav_pagetitle_visitorlist,.mainnav_pagetitle_visualization,.mainnav_pagetitle_widget,.medium_chat_light,.medium_email_light,.medium_lightbulb_orange,.notice_warning,.onboarding_tooltiparrow_bottom,.onboarding_tooltiparrow_left,.onboarding_tooltiparrow_right,.onboarding_tooltiparrow_top,.profile_large_,.routing_pull,.routing_push,.tooltip_help,.translate_large_2018,.translate_small,.video_play,.visitor_legend_active,.visitor_legend_assigned,.visitor_legend_clicked,.visitor_legend_idle,.visitor_legend_incoming,.visitor_legend_served,.visitor_legend_triggered,.volume_loud,.volume_soft,.white_forward,.widget_badge_image,.widget_badge_image_left,.widget_badge_image_right,.widget_badge_text,.widget_new,.widget_theme_classic,.widget_theme_embeddable,.widget_theme_simple,.widget_upload {
+		background: url(white_v25@2x.png) top left no-repeat;
+		background-size: 441px 440px;
+	}
+}
+
+.agent_admin {
+	background-position: -248px -276px;
+	width: 14px;
+	height: 13px;
+}
+.agent_light {
+	background-position: -409px -50px;
+	width: 20px;
+	height: 17px;
+}
+.agent_orange {
+	background-position: -409px -69px;
+	width: 20px;
+	height: 17px;
+}
+.analytics_acceptance {
+	background-position: -77px -276px;
+	width: 32px;
+	height: 26px;
+}
+.analytics_agentschatting {
+	background-position: -371px -184px;
+	width: 30px;
+	height: 30px;
+}
+.analytics_capacity {
+	background-position: -164px -276px;
+	width: 32px;
+	height: 17px;
+}
+.analytics_completed {
+	background-position: -371px -276px;
+	width: 33px;
+	height: 26px;
+}
+.analytics_dropped {
+	background-position: -371px -248px;
+	width: 33px;
+	height: 26px;
+}
+.analytics_missed {
+	background-position: -371px -304px;
+	width: 33px;
+	height: 26px;
+}
+.analytics_satisfaction {
+	background-position: -371px -332px;
+	width: 27px;
+	height: 24px;
+}
+.analytics_served {
+	background-position: -336px -219px;
+	width: 32px;
+	height: 26px;
+}
+.analytics_timing {
+	background-position: -335px -307px;
+	width: 23px;
+	height: 28px;
+}
+.analytics_view {
+	background-position: -34px -387px;
+	width: 15px;
+	height: 15px;
+}
+.big_disconnection {
+	background-position: -216px -258px;
+	width: 29px;
+	height: 12px;
+}
+.big_tick_orange {
+	background-position: -51px -359px;
+	width: 23px;
+	height: 20px;
+}
+.browserbroken {
+	background-position: -0px -0px;
+	width: 187px;
+	height: 168px;
+}
+.btn_action_download {
+	background-position: -431px -129px;
+	width: 10px;
+	height: 12px;
+}
+.btn_action_more_options {
+	background-position: -203px -160px;
+	width: 18px;
+	height: 4px;
+}
+.btn_action_save {
+	background-position: -338px -258px;
+	width: 14px;
+	height: 11px;
+}
+.btn_delete {
+	background-position: -15px -405px;
+	width: 14px;
+	height: 15px;
+}
+.btn_dismiss_dark {
+	background-position: -431px -365px;
+	width: 8px;
+	height: 8px;
+}
+.btn_dismiss_light {
+	background-position: -431px -385px;
+	width: 8px;
+	height: 8px;
+}
+.btn_dismiss_orange {
+	background-position: -431px -395px;
+	width: 8px;
+	height: 8px;
+}
+.btn_round_back {
+	background-position: -401px -359px;
+	width: 5px;
+	height: 9px;
+}
+.btn_round_chat {
+	background-position: -431px -375px;
+	width: 8px;
+	height: 8px;
+}
+.btn_round_contract {
+	background-position: -335px -337px;
+	width: 8px;
+	height: 6px;
+}
+.btn_round_contractall {
+	background-position: -431px -345px;
+	width: 8px;
+	height: 9px;
+}
+.btn_round_dismiss_dark {
+	background-position: -431px -334px;
+	width: 8px;
+	height: 9px;
+}
+.btn_round_expand {
+	background-position: -360px -315px;
+	width: 8px;
+	height: 6px;
+}
+.btn_round_expandall {
+	background-position: -431px -312px;
+	width: 8px;
+	height: 9px;
+}
+.btn_round_forward {
+	background-position: -268px -387px;
+	width: 5px;
+	height: 9px;
+}
+.btn_round_maximize {
+	background-position: -431px -323px;
+	width: 8px;
+	height: 9px;
+}
+.btn_round_minimize {
+	background-position: -431px -419px;
+	width: 8px;
+	height: 3px;
+}
+.btn_round_minimize_dark {
+	background-position: -223px -160px;
+	width: 8px;
+	height: 3px;
+}
+.btn_white_more {
+	background-position: -233px -160px;
+	width: 10px;
+	height: 2px;
+}
+.btn_white_more_active {
+	background-position: -245px -160px;
+	width: 10px;
+	height: 2px;
+}
+.btn_windowctrl_chat_hover {
+	background-position: -113px -359px;
+	width: 16px;
+	height: 16px;
+}
+.btn_windowctrl_chat_hover_old {
+	background-position: -239px -359px;
+	width: 16px;
+	height: 16px;
+}
+.btn_windowctrl_minimize_hover_old {
+	background-position: -221px -359px;
+	width: 16px;
+	height: 16px;
+}
+.btn_windowctrl_minimize_old {
+	background-position: -203px -359px;
+	width: 16px;
+	height: 16px;
+}
+.camera_dark {
+	background-position: -288px -258px;
+	width: 15px;
+	height: 11px;
+}
+.camera_white {
+	background-position: -305px -258px;
+	width: 15px;
+	height: 11px;
+}
+.chatpanel_attach {
+	background-position: -17px -387px;
+	width: 15px;
+	height: 16px;
+}
+.chatpanel_attach_hover {
+	background-position: -275px -359px;
+	width: 15px;
+	height: 16px;
+}
+.chatpanel_clipboard_close {
+	background-position: -409px -227px;
+	width: 18px;
+	height: 18px;
+}
+.chatpanel_rating {
+	background-position: -347px -359px;
+	width: 16px;
+	height: 14px;
+}
+.chatpanel_rating_hover {
+	background-position: -51px -387px;
+	width: 16px;
+	height: 14px;
+}
+.chatpanel_seen {
+	background-position: -189px -160px;
+	width: 12px;
+	height: 7px;
+}
+.chatpanel_textarea_paperclip {
+	background-position: -431px -58px;
+	width: 9px;
+	height: 16px;
+}
+.chatpanel_visitorpath_path {
+	background-position: -425px -363px;
+	width: 4px;
+	height: 4px;
+}
+.chatpanel_visitorpath_referrer {
+	background-position: -360px -345px;
+	width: 6px;
+	height: 8px;
+}
+.chatpanel_webpath {
+	background-position: -409px -371px;
+	width: 20px;
+	height: 12px;
+}
+.chatrating_bad {
+	background-position: -383px -359px;
+	width: 16px;
+	height: 14px;
+}
+.chatrating_good {
+	background-position: -365px -359px;
+	width: 16px;
+	height: 14px;
+}
+.checkbox_active {
+	background-position: -95px -359px;
+	width: 16px;
+	height: 16px;
+}
+.checkbox_active_checked {
+	background-position: -167px -359px;
+	width: 16px;
+	height: 16px;
+}
+.checkbox_checked {
+	background-position: -181px -387px;
+	width: 14px;
+	height: 14px;
+}
+.checkbox_checkmark {
+	background-position: -431px -356px;
+	width: 10px;
+	height: 7px;
+}
+.checkbox_default {
+	background-position: -85px -387px;
+	width: 14px;
+	height: 14px;
+}
+.checkbox_disabled {
+	background-position: -197px -387px;
+	width: 14px;
+	height: 14px;
+}
+.checkbox_disabled_checked {
+	background-position: -149px -387px;
+	width: 14px;
+	height: 14px;
+}
+.drop_files_here {
+	background-position: -248px -307px;
+	width: 47px;
+	height: 36px;
+}
+.dropdown_contract_dark {
+	background-position: -360px -323px;
+	width: 8px;
+	height: 6px;
+}
+.dropdown_expand_dark {
+	background-position: -360px -307px;
+	width: 8px;
+	height: 6px;
+}
+.edit_dark {
+	background-position: -276px -345px;
+	width: 12px;
+	height: 12px;
+}
+.edit_orange {
+	background-position: -304px -345px;
+	width: 12px;
+	height: 12px;
+}
+.goal {
+	background-position: -431px -143px;
+	width: 9px;
+	height: 13px;
+}
+.goal_outline {
+	background-position: -409px -0px;
+	width: 20px;
+	height: 28px;
+}
+.google_2019 {
+	background-position: -185px -359px;
+	width: 16px;
+	height: 16px;
+}
+.helpfeedback_bug {
+	background-position: -138px -276px;
+	width: 24px;
+	height: 24px;
+}
+.helpfeedback_bug_old {
+	background-position: -371px -152px;
+	width: 30px;
+	height: 30px;
+}
+.helpfeedback_chat {
+	background-position: -25px -359px;
+	width: 24px;
+	height: 22px;
+}
+.helpfeedback_chat_old {
+	background-position: -371px -216px;
+	width: 30px;
+	height: 30px;
+}
+.helpfeedback_feedbacksurvey {
+	background-position: -0px -359px;
+	width: 23px;
+	height: 26px;
+}
+.helpfeedback_newfeaturesurvey {
+	background-position: -111px -276px;
+	width: 25px;
+	height: 24px;
+}
+.helpfeedback_surveycomplete {
+	background-position: -294px -219px;
+	width: 40px;
+	height: 31px;
+}
+.home_websiteactivity_assigned {
+	background-position: -165px -387px;
+	width: 14px;
+	height: 14px;
+}
+.home_websiteactivity_chatting {
+	background-position: -101px -387px;
+	width: 14px;
+	height: 14px;
+}
+.home_websiteactivity_incoming {
+	background-position: -117px -387px;
+	width: 14px;
+	height: 14px;
+}
+.home_websiteactivity_left {
+	background-position: -133px -387px;
+	width: 14px;
+	height: 14px;
+}
+.home_websiteupdates_bullet {
+	background-position: -213px -387px;
+	width: 12px;
+	height: 14px;
+}
+.home_welcome_home {
+	background-position: -371px -114px;
+	width: 36px;
+	height: 36px;
+}
+.home_welcome_triggers {
+	background-position: -297px -307px;
+	width: 36px;
+	height: 36px;
+}
+.home_welcome_visitorlist {
+	background-position: -371px -76px;
+	width: 36px;
+	height: 36px;
+}
+.home_welcome_visualization {
+	background-position: -371px -0px;
+	width: 36px;
+	height: 36px;
+}
+.logo_light {
+	background-position: -0px -387px;
+	width: 15px;
+	height: 16px;
+}
+.logo_orange {
+	background-position: -69px -387px;
+	width: 14px;
+	height: 14px;
+}
+.logo_white {
+	background-position: -227px -387px;
+	width: 11px;
+	height: 12px;
+}
+.mainnav_active_account {
+	background-position: -313px -276px;
+	width: 15px;
+	height: 10px;
+}
+.mainnav_active_agents {
+	background-position: -403px -152px;
+	width: 4px;
+	height: 14px;
+}
+.mainnav_active_analytics {
+	background-position: -330px -276px;
+	width: 12px;
+	height: 9px;
+}
+.mainnav_active_bannedvisitors {
+	background-position: -431px -171px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_active_departments {
+	background-position: -431px -298px;
+	width: 7px;
+	height: 12px;
+}
+.mainnav_active_history {
+	background-position: -431px -197px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_active_home {
+	background-position: -431px -210px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_active_labs {
+	background-position: -431px -99px;
+	width: 10px;
+	height: 13px;
+}
+.mainnav_active_personal {
+	background-position: -240px -387px;
+	width: 12px;
+	height: 11px;
+}
+.mainnav_active_realtime {
+	background-position: -346px -345px;
+	width: 12px;
+	height: 11px;
+}
+.mainnav_active_shortcuts {
+	background-position: -431px -273px;
+	width: 10px;
+	height: 9px;
+}
+.mainnav_active_triggers {
+	background-position: -431px -405px;
+	width: 5px;
+	height: 12px;
+}
+.mainnav_active_visitorlist {
+	background-position: -290px -345px;
+	width: 12px;
+	height: 12px;
+}
+.mainnav_active_visualization {
+	background-position: -280px -276px;
+	width: 14px;
+	height: 11px;
+}
+.mainnav_active_widget {
+	background-position: -431px -223px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_default_account {
+	background-position: -296px -276px;
+	width: 15px;
+	height: 10px;
+}
+.mainnav_default_agentlist {
+	background-position: -332px -345px;
+	width: 12px;
+	height: 11px;
+}
+.mainnav_default_agents {
+	background-position: -425px -347px;
+	width: 4px;
+	height: 14px;
+}
+.mainnav_default_analytics {
+	background-position: -344px -276px;
+	width: 12px;
+	height: 9px;
+}
+.mainnav_default_bannedvisitors {
+	background-position: -431px -184px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_default_departments {
+	background-position: -431px -284px;
+	width: 7px;
+	height: 12px;
+}
+.mainnav_default_history {
+	background-position: -431px -236px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_default_home {
+	background-position: -431px -249px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_default_labs {
+	background-position: -431px -114px;
+	width: 10px;
+	height: 13px;
+}
+.mainnav_default_personal {
+	background-position: -254px -387px;
+	width: 12px;
+	height: 11px;
+}
+.mainnav_default_realtime {
+	background-position: -318px -345px;
+	width: 12px;
+	height: 11px;
+}
+.mainnav_default_shortcuts {
+	background-position: -431px -262px;
+	width: 10px;
+	height: 9px;
+}
+.mainnav_default_triggers {
+	background-position: -400px -332px;
+	width: 5px;
+	height: 12px;
+}
+.mainnav_default_visitorlist {
+	background-position: -262px -345px;
+	width: 12px;
+	height: 12px;
+}
+.mainnav_default_visualization {
+	background-position: -322px -258px;
+	width: 14px;
+	height: 11px;
+}
+.mainnav_default_widget {
+	background-position: -431px -158px;
+	width: 10px;
+	height: 11px;
+}
+.mainnav_pagetitle_account {
+	background-position: -188px -258px;
+	width: 26px;
+	height: 16px;
+}
+.mainnav_pagetitle_add {
+	background-position: -76px -359px;
+	width: 17px;
+	height: 17px;
+}
+.mainnav_pagetitle_agents {
+	background-position: -431px -76px;
+	width: 6px;
+	height: 21px;
+}
+.mainnav_pagetitle_analytics {
+	background-position: -247px -258px;
+	width: 19px;
+	height: 12px;
+}
+.mainnav_pagetitle_bannedvisitors {
+	background-position: -409px -247px;
+	width: 18px;
+	height: 18px;
+}
+.mainnav_pagetitle_departments {
+	background-position: -409px -347px;
+	width: 14px;
+	height: 22px;
+}
+.mainnav_pagetitle_generic {
+	background-position: -131px -359px;
+	width: 16px;
+	height: 16px;
+}
+.mainnav_pagetitle_history {
+	background-position: -409px -127px;
+	width: 18px;
+	height: 18px;
+}
+.mainnav_pagetitle_home {
+	background-position: -409px -327px;
+	width: 18px;
+	height: 18px;
+}
+.mainnav_pagetitle_labs {
+	background-position: -0px -405px;
+	width: 13px;
+	height: 17px;
+}
+.mainnav_pagetitle_personal {
+	background-position: -409px -88px;
+	width: 20px;
+	height: 17px;
+}
+.mainnav_pagetitle_realtime {
+	background-position: -329px -359px;
+	width: 16px;
+	height: 14px;
+}
+.mainnav_pagetitle_shortcuts {
+	background-position: -310px -359px;
+	width: 17px;
+	height: 14px;
+}
+.mainnav_pagetitle_triggers {
+	background-position: -431px -0px;
+	width: 10px;
+	height: 18px;
+}
+.mainnav_pagetitle_visitorlist {
+	background-position: -292px -359px;
+	width: 16px;
+	height: 15px;
+}
+.mainnav_pagetitle_visualization {
+	background-position: -198px -276px;
+	width: 22px;
+	height: 16px;
+}
+.mainnav_pagetitle_widget {
+	background-position: -409px -267px;
+	width: 18px;
+	height: 18px;
+}
+.medium_chat_light {
+	background-position: -257px -359px;
+	width: 16px;
+	height: 16px;
+}
+.medium_email_light {
+	background-position: -268px -258px;
+	width: 18px;
+	height: 12px;
+}
+.medium_lightbulb_orange {
+	background-position: -0px -424px;
+	width: 11px;
+	height: 16px;
+}
+.notice_warning {
+	background-position: -248px -345px;
+	width: 12px;
+	height: 12px;
+}
+.onboarding_tooltiparrow_bottom {
+	background-position: -264px -276px;
+	width: 14px;
+	height: 11px;
+}
+.onboarding_tooltiparrow_left {
+	background-position: -431px -39px;
+	width: 9px;
+	height: 17px;
+}
+.onboarding_tooltiparrow_right {
+	background-position: -431px -20px;
+	width: 9px;
+	height: 17px;
+}
+.onboarding_tooltiparrow_top {
+	background-position: -354px -258px;
+	width: 14px;
+	height: 11px;
+}
+.profile_large_ {
+	background-position: -189px -0px;
+	width: 180px;
+	height: 158px;
+}
+.routing_pull {
+	background-position: -0px -258px;
+	width: 75px;
+	height: 47px;
+}
+.routing_push {
+	background-position: -294px -170px;
+	width: 75px;
+	height: 47px;
+}
+.tooltip_help {
+	background-position: -400px -346px;
+	width: 6px;
+	height: 10px;
+}
+.translate_large_2018 {
+	background-position: -77px -258px;
+	width: 109px;
+	height: 16px;
+}
+.translate_small {
+	background-position: -409px -30px;
+	width: 19px;
+	height: 18px;
+}
+.video_play {
+	background-position: -371px -38px;
+	width: 36px;
+	height: 36px;
+}
+.visitor_legend_active {
+	background-position: -409px -287px;
+	width: 18px;
+	height: 18px;
+}
+.visitor_legend_assigned {
+	background-position: -409px -107px;
+	width: 18px;
+	height: 18px;
+}
+.visitor_legend_clicked {
+	background-position: -409px -207px;
+	width: 18px;
+	height: 18px;
+}
+.visitor_legend_idle {
+	background-position: -409px -307px;
+	width: 18px;
+	height: 18px;
+}
+.visitor_legend_incoming {
+	background-position: -409px -147px;
+	width: 18px;
+	height: 18px;
+}
+.visitor_legend_served {
+	background-position: -409px -167px;
+	width: 18px;
+	height: 18px;
+}
+.visitor_legend_triggered {
+	background-position: -409px -187px;
+	width: 18px;
+	height: 18px;
+}
+.volume_loud {
+	background-position: -149px -359px;
+	width: 16px;
+	height: 16px;
+}
+.volume_soft {
+	background-position: -358px -276px;
+	width: 11px;
+	height: 9px;
+}
+.white_forward {
+	background-position: -275px -387px;
+	width: 5px;
+	height: 8px;
+}
+.widget_badge_image {
+	background-position: -124px -307px;
+	width: 60px;
+	height: 50px;
+}
+.widget_badge_image_left {
+	background-position: -62px -307px;
+	width: 60px;
+	height: 50px;
+}
+.widget_badge_image_right {
+	background-position: -186px -307px;
+	width: 60px;
+	height: 50px;
+}
+.widget_badge_text {
+	background-position: -0px -307px;
+	width: 60px;
+	height: 50px;
+}
+.widget_new {
+	background-position: -232px -170px;
+	width: 60px;
+	height: 80px;
+}
+.widget_theme_classic {
+	background-position: -0px -170px;
+	width: 78px;
+	height: 86px;
+}
+.widget_theme_embeddable {
+	background-position: -160px -170px;
+	width: 70px;
+	height: 86px;
+}
+.widget_theme_simple {
+	background-position: -80px -170px;
+	width: 78px;
+	height: 86px;
+}
+.widget_upload {
+	background-position: -222px -276px;
+	width: 24px;
+	height: 13px;
+}

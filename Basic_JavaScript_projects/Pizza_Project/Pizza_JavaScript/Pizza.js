@@ -3,7 +3,7 @@ function getReceipt() {
 // function to function, growingl ine by line into a full receipt
     var text1 = "<h3>You ordered:</h3>";
     var runningTotal = 0;
-    var sizeTotal = 0;
+    var sizeTotal = 0; 
     var sizeArray = document.getElementsByClassName("size");
     for (var i = 0; i < sizeArray.length; i++) {
         if (sizeArray[i].checked) {
