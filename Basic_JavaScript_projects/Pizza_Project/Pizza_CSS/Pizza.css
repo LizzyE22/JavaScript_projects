@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(245, 162, 38);
+}
+
+h1 {
+    font-family: 'Segoe UI', sans-serif;
+    color: rgb(232, 46, 4);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    color: rgb(243, 243, 9);
+}
+
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    color: rgb(1, 10, 2);
+}
+
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+    }
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+    }
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+    }
+
+.left {
+    width:200px;
+    height: 200px;
+    float: left;
+    }
+
+.center {
+    width:200px;
+    height: 200px;
+    float: left;
+    }
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+    }
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+    }
+
+
+#cart {
+    top: 0;margin:0px auto;
+    width: 400px;
+    height: 200px;
+    }
+
+#btnOrder {
+    margin: 50px 0px 0px 150px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    border-color: rgb(15, 188, 15);
+    border-width: 5px;
+    border-radius: 7px;
+    
+    }
