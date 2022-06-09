@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<title> House of Plants </title>
+		<link rel="stylesheet" href="css/test.css">
+       
+	</head>
+	<body>
+
+		<!-- NAV -->
+		<div>
+			<div class="menu-list">
+				<ul class="menu">
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>CONTACT FORM</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<div>
+					<span><h1 style="text-align:center; color:green">Plants and more plants!</h1></span>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME -->
+
+		<!-- GALLERY -->
+		<section id="gallery">
+			<div id="container">
+				<div class="flex-container">
+
+					<!-- PHOTO CONTAINER 1 -->
+					<div class="photo-container">
+						<div class="photo" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+							<img src="./images/succulents.jpg" style="width:100%"  alt="succulents">
+							<div class="photo-overlay">
+							<h1>Succulents</h1>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 1 -->
+
+					<!-- PHOTO CONTAINER 2 -->
+					<div class="photo-container">
+						<div class="photo" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" >
+							<img src="./images/ferns.jpg" style="width:100%" alt="ferns">	
+							<div class="photo-overlay">
+							<h1>Ferns</h1>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 2 -->
+
+					<!-- PHOTO CONTAINER 3 -->
+					<div class="photo-container">
+						<div class="photo" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+							<img src="./images/philodendron.jpg" style="width:100%" alt="philodendron">
+							<div class="photo-overlay">
+							<h1>Philodendron</h1>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 3 -->
+
+					<!-- PHOTO CONTAINER 4 -->
+					<div class="photo-container">
+						<div class="photo" onclick="openModal();currentSlide(4)" class="hover-shadow cursor" >
+							<img src="./images/alocasia.jpg" style="width:100%" alt="alocasia">
+							<div class="photo-overlay">
+							<h1>Alocasia</h1>
+							</div>
+						</div>
+					</div>
+					<!-- END PHOTO CONTAINER 4-->
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+		
+					<!-- END PHOTO CONTAINER 6 -->
+
+                    <!-- The Modal Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="./images/succulents.jpg" style="width:100%">
+                </div>
+                
+                <div class="mySlides">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="./images/ferns.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="./images/philodendron.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="./images/alocasia.jpg" style="width:100%">
+                </div>
+
+
+                <!-- Next/Previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- Caption Text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail Image Controls -->
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" height="200px" src="./images/succulents.jpg" alt="Succulents" onclick="currentSlide(1)">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" height="200px" src="./images/ferns.jpg" alt="Ferns" onclick="currentSlide(2)" >
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" height="200px" src="./images/philodendron.jpg" alt="Philodendron"  onclick="currentSlide(3)">
+                </div>
+
+                <div class="column">
+                    <img class="demo cursor" style="width:100%" height="200px" src="./images/alocasia.jpg"  alt="Alocasia" onclick="currentSlide(4)">
+            
+                </div>
+				</div>
+				</div>
+			</section>
+			<p><h1 style="text-align:center"> Check out this video for plant care tips!</h1>
+			</p>
+			<center><iframe width="1020" height="630" src="https://www.youtube.com/embed/LZhnCxG5c6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+		<br>
+		<br>
+
+
+	<!-- RSVP -->
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">CONTACT FORM</h1>
+					<div class="reservation">
+						<h2><span>Sign up today and save 20% of your first order</span>
+						</h2>
+						<br>
+						<br>
+						<p class="rsvp-text">
+							Please provide us with your contact info below.
+						</p>
+						<div class="form-rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="" placeholder= "First Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
+								<div class="form-spacer">
+									<br>
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								 <div class="submit">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END RSVP -->
+
+		<!-- FOOTER -->
+		<div id="footer">
+			www.houseofplants.plants &nbsp;| &nbsp; &copy; 2022
+		</div>
+		<!-- END FOOTER --> 
+		<script src="JS/test.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
